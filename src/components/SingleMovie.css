@@ -1,0 +1,40 @@
+.single-movie {
+  width: 470px;
+  height: 230px;
+  margin-top: 10px;
+  position: relative;
+  margin-right: 24px;
+  border-radius: 5px;
+  background-size: cover;
+}
+.movie-data {
+  height: 52px;
+  position: absolute;
+  left: 24px;
+  bottom: 20px;
+}
+.bookmark {
+  transition: all 0.2s;
+  border-radius: 100%;
+  background-color: #5a698f;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  right: 34px;
+}
+.movie-name {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.movie-data-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+
+  font-size: 13px;
+}

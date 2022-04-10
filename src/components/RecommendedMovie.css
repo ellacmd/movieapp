@@ -1,0 +1,68 @@
+.movie-box {
+  margin-top: 32px;
+  height: 226px;
+  max-width: 350px;
+}
+
+.movie-image {
+  background-size: cover;
+  height: 174px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.bookmark.recommended-bookmark {
+  top: 16px;
+  right: 16px;
+}
+
+.movie-info div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  width: 137px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+.movie-name {
+  font-size: 18px;
+}
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  width: 105px;
+  justify-content: space-around;
+  opacity: 0.6;
+  background-color: #6e747d;
+  padding: 5px 0;
+  border-radius: 20px;
+  font-weight: 700;
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.single-movie:hover .play-btn {
+  display: flex;
+}
+.movie-image:hover .play-btn {
+  display: flex;
+}
+.single-movie:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.movie-image:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.single-movie,
+.movie-image {
+  transition: all 0.7s ease-in-out;
+}

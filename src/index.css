@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #10141e;
+  color: #fff;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+.top {
+  margin-top: 25px;
+}
+svg {
+  fill: #5a698f;
+  transition: all 0.1s;
+}
+svg:hover {
+  fill: #fc4747;
+}
+.bookmark:hover {
+  background-color: #fff;
+}
+.bookmark-svg {
+  stroke: #fff;
+}
+.bookmark:hover .bookmark-svg {
+  stroke: #5a698f;
+}
+.full-svg {
+  fill: #fff;
+}
+.bookmark:hover .full-svg {
+  fill: #5a698f;
+}
+a.active svg {
+  fill: #fff;
+}

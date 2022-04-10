@@ -1,0 +1,13 @@
+.App {
+  display: grid;
+  grid-template-columns: 128px 6fr;
+  grid-template-rows: 86px 300px 1fr;
+
+  padding: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .App {
+    grid-template-rows: 86px 40px 300px 1fr ;
+   padding: 0;
+  }
+}
